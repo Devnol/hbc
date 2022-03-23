@@ -3,6 +3,10 @@
 This repository contains the public release of the source code for
 The Homebrew Channel.
 
+Changes in this fork from [fail0verflow/hbc](https://github.com/fail0verflow/hbc):
+    - Version number is bumped to 1.1.5
+    - Title ID has been changed back to LULZ from OHBC to make it usable with BootMii and older homebrew while retaining OHBC-specific features.
+
 Included portions:
 
 * The Homebrew Channel
