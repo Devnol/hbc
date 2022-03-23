@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "devkitPPC",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/devkitpro/libogc/include",
+                "/opt/devkitpro/devkitPPC/powerpc-eabi/include"
+            ],
+            "defines": ["__wii__", "HW_RVL", "__cplusplus"],
+            "macFrameworkPath": [],
+            "compilerPath": "/opt/devkitpro/devkitPPC/bin/powerpc-eabi-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "${default}",
+            "compilerArgs": [],
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "/opt/devkitpro"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

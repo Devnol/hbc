@@ -1,8 +1,8 @@
 #ifndef _CONFIG_H_
 #define _CONFIG_H_
 
-#define CHANNEL_VERSION_DATE 201611230000llu
-#define CHANNEL_VERSION_STR "1.1.3"
+#define CHANNEL_VERSION_DATE 202203240000llu
+#define CHANNEL_VERSION_STR "1.1.5"
 
 //#define DEBUG_APP
 //#define DEBUG_STUB
@@ -49,7 +49,7 @@ void memstats(int reset);
 #define PREFERRED IOS_GetPreferredVersion()
 #define UNCHANGED IOS_GetVersion()
 
-#define MY_TITLEID 0x000100014f484243ull
+#define MY_TITLEID 0x000100014c554c5aull
 #define STUB_LOAD_IOS_VERSION UNCHANGED
 #define APPS_IOS_VERSION PREFERRED
 
